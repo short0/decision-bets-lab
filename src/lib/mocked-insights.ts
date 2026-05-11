@@ -85,7 +85,7 @@ export function explainResult(state: LabState): string {
   return `You assigned this outcome roughly ${odds}% probability. ${a.headline}. ${base} Remember: a single result is one sample from a distribution — judge the bet, not the spin of the wheel.`;
 }
 
-export function compareScenarios(state: LabState) {
+export function compareScenarios(_state?: LabState) {
   return [
     {
       title: "Good decision, bad outcome",
