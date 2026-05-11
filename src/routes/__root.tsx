@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Decision Bets Lab — Think clearly under uncertainty" },
+      { name: "description", content: "Decision Bets Lab helps users make better decisions under uncertainty by framing choices as explicit bets." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Decision Bets Lab — Think clearly under uncertainty" },
+      { property: "og:description", content: "Decision Bets Lab helps users make better decisions under uncertainty by framing choices as explicit bets." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Decision Bets Lab — Think clearly under uncertainty" },
+      { name: "twitter:description", content: "Decision Bets Lab helps users make better decisions under uncertainty by framing choices as explicit bets." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/651db730-cfa8-40ef-addb-60b62c4e6ee8/id-preview-9c882454--d24ecb65-ea99-4b20-8384-cc78cb43e020.lovable.app-1778467637139.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/651db730-cfa8-40ef-addb-60b62c4e6ee8/id-preview-9c882454--d24ecb65-ea99-4b20-8384-cc78cb43e020.lovable.app-1778467637139.png" },
     ],
     links: [
       {
