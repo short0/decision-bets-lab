@@ -18,7 +18,7 @@ export function OutcomeReview() {
   return (
     <div className="space-y-4">
       <div>
-        <h3 className="text-sm font-medium">Which outcome happened?</h3>
+        <h2 className="text-sm font-medium">Outcome review</h2>
         <p className="text-xs text-muted-foreground">Pick what actually played out to review the bet.</p>
       </div>
 

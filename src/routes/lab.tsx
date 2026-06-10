@@ -114,6 +114,7 @@ function LabPage() {
       </div>
 
       <main className="mx-auto max-w-7xl px-4 py-6 sm:px-6">
+        <h1 className="sr-only">Decision Lab Sandbox</h1>
         <div className="grid gap-6 lg:grid-cols-12">
           {/* Left panel */}
           <aside className="space-y-4 lg:col-span-3">
@@ -238,7 +239,7 @@ function LabPage() {
             </Card>
 
             <Card className="space-y-4 p-4">
-              <h3 className="text-sm font-medium">Decision journal</h3>
+              <h2 className="text-sm font-medium">Decision journal</h2>
 
               <div>
                 <Label htmlFor="reasoning" className="text-xs uppercase tracking-wide text-muted-foreground">
@@ -287,7 +288,7 @@ function LabPage() {
               <OutcomeReview />
             </Card>
             <Card className="space-y-3 p-4">
-              <h3 className="text-sm font-medium">Compare scenarios</h3>
+              <h2 className="text-sm font-medium">Compare scenarios</h2>
               <p className="text-xs text-muted-foreground">
                 Two cases people get wrong most often.
               </p>

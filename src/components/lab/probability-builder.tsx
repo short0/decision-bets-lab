@@ -46,7 +46,7 @@ export function ProbabilityBuilder() {
     <div className="space-y-4">
       <div className="flex items-center justify-between">
         <div>
-          <h3 className="text-sm font-medium">Probability builder</h3>
+          <h2 className="text-sm font-medium">Probability builder</h2>
           <p className="text-xs text-muted-foreground">
             Total: <span className={isBalanced ? "text-success" : "text-warning"}>{total}%</span>
           </p>
