@@ -1,0 +1,11 @@
+# Decision Bets Lab
+
+> A learning sandbox inspired by Annie Duke's "Thinking in Bets". Frame decisions as explicit bets, assign probabilities to outcomes, and separate decision quality from outcome quality.
+
+Decision Bets Lab is a free, single-page web app for founders, operators, investors, and learners who want to make better decisions under uncertainty. It runs entirely in the browser with no account required.
+
+## Pages
+
+- [Home](/): Overview, presets, and how the lab works.
+- [Lab](/lab): Interactive sandbox to frame a decision, assign probabilities, record reasoning, and review outcomes.
+- [About](/about): Decision quality vs outcome quality, the "resulting" bias, and how to use the lab.
